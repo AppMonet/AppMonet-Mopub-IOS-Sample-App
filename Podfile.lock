@@ -1,0 +1,34 @@
+PODS:
+  - AppMonet_Mopub-universal (1.7.4)
+  - mopub-ios-sdk (5.11.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.11.0)
+  - mopub-ios-sdk/Avid (5.11.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/Core (5.11.0)
+  - mopub-ios-sdk/Moat (5.11.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/MoPubSDK (5.11.0):
+    - mopub-ios-sdk/Avid
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/Moat
+    - mopub-ios-sdk/NativeAds
+  - mopub-ios-sdk/NativeAds (5.11.0):
+    - mopub-ios-sdk/Core
+
+DEPENDENCIES:
+  - AppMonet_Mopub-universal
+  - mopub-ios-sdk
+
+SPEC REPOS:
+  https://downloads.a-mo.net/1e1b428c83222ad235d62f216e2c4945d3e46c2da85a3865/cocoapods:
+    - AppMonet_Mopub-universal
+  trunk:
+    - mopub-ios-sdk
+
+SPEC CHECKSUMS:
+  AppMonet_Mopub-universal: 0416919065ce3ec10b025c7a680c17d1d4b7a827
+  mopub-ios-sdk: 292b8e9a55a2e72a34afc04ec01e85486af46240
+
+PODFILE CHECKSUM: 72e7f5dd45ae0a9f8f9eaa41f6a29e99b5e0e45a
+
+COCOAPODS: 1.9.0.beta.2
