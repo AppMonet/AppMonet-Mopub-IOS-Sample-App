@@ -63,7 +63,7 @@ class ViewController: UIViewController, MPAdViewDelegate, MPInterstitialAdContro
     // MARK: Buttons
 
     @IBAction func loadMrect(_ sender: Any) {
-        AppMonet.addBids(adView, andTimeout: 4000) {
+        AppMonet.addBids(adView, andTimeout: 1500) {
             self.adView.loadAd()
         }
     }
