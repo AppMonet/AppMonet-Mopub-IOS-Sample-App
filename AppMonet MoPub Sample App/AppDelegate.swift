@@ -13,7 +13,7 @@ import AppMonet_Mopub
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-     var window: UIWindow?
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -21,11 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MoPub.sharedInstance().initializeSdk(with: sdkConfig) {
             NSLog("SDK initialization complete")
         }
-        
-        let appMonetConfiguration = AppMonetConfigurations .configuration { (AppMonetConfigurations) in
+
+        //AppMonet Setup
+        let appMonetConfiguration = AppMonetConfigurations.configuration { (AppMonetConfigurations) in
             AppMonetConfigurations?.applicationId = "3zeuyua"
         }
-        AppMonet .initialize(appMonetConfiguration)
+        AppMonet.initialize(appMonetConfiguration)
         return true
     }
 }
