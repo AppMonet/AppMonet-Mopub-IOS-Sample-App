@@ -10,4 +10,4 @@ This project requires [Cocoapods](https://cocoapods.org/).
 
 ### 2.  Documentation
 
-For setup and SDK information please refer to [AppMonet's Documentation](https://docs.appmonet.com/docs/get-started-with-appmonet)
+For setup and SDK information please refer to [AppMonet's Documentation](https://docs.appmonet.com/docs/integrate-via-mopub-ios)
