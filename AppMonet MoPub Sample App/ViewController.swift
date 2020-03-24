@@ -13,7 +13,7 @@ import AppMonet_Mopub
 class ViewController: UIViewController, MPAdViewDelegate, MPInterstitialAdControllerDelegate {
     var adView: MPAdView = MPAdView(adUnitId: "b03e6dccfe9e4abab02470a39c88d5dc")
     var interstitial: MPInterstitialAdController = MPInterstitialAdController(forAdUnitId: "a49430ee57ee4401a9eda6098726ce54")
-
+    @IBOutlet weak var mrectContainer: UIView!
     // Mark: MPAdViewDelegate
 
     func viewControllerForPresentingModalView() -> UIViewController! {
@@ -50,14 +50,16 @@ class ViewController: UIViewController, MPAdViewDelegate, MPInterstitialAdContro
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.adView.frame = CGRect(x: (self.view.bounds.size.width - 300) / 2,
-                y: self.view.bounds.size.height - kMPPresetMaxAdSize250Height.height,
-                width: 300,
-                height: kMPPresetMaxAdSize250Height.height
-        )
+//        self.adView.frame = mrectContainer.frame
+//        self.adView.frame = CGRect(x: (self.view.bounds.size.width - 300) / 2,
+//                y: self.view.bounds.size.height - kMPPresetMaxAdSize250Height.height,
+//                width: 300,
+//                height: kMPPresetMaxAdSize250Height.height
+//        )
+        self.adView.frame = CGRect(x:0,y:0, width: 300, height: kMPPresetMaxAdSize250Height.height)
         self.adView.delegate = self
         self.interstitial.delegate = self
-        self.view.addSubview(self.adView)
+        self.mrectContainer.addSubview(self.adView)
     }
 
     // MARK: Buttons
