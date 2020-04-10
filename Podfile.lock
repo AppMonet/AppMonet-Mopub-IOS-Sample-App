@@ -1,18 +1,18 @@
 PODS:
-  - AppMonet_Mopub-universal (1.7.4)
-  - mopub-ios-sdk (5.11.0):
-    - mopub-ios-sdk/MoPubSDK (= 5.11.0)
-  - mopub-ios-sdk/Avid (5.11.0):
+  - AppMonet_Mopub-universal (1.7.15)
+  - mopub-ios-sdk (5.12.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.12.0)
+  - mopub-ios-sdk/Avid (5.12.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (5.11.0)
-  - mopub-ios-sdk/Moat (5.11.0):
+  - mopub-ios-sdk/Core (5.12.0)
+  - mopub-ios-sdk/Moat (5.12.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (5.11.0):
+  - mopub-ios-sdk/MoPubSDK (5.12.0):
     - mopub-ios-sdk/Avid
     - mopub-ios-sdk/Core
     - mopub-ios-sdk/Moat
     - mopub-ios-sdk/NativeAds
-  - mopub-ios-sdk/NativeAds (5.11.0):
+  - mopub-ios-sdk/NativeAds (5.12.0):
     - mopub-ios-sdk/Core
 
 DEPENDENCIES:
@@ -20,15 +20,15 @@ DEPENDENCIES:
   - mopub-ios-sdk
 
 SPEC REPOS:
-  https://downloads.a-mo.net/1e1b428c83222ad235d62f216e2c4945d3e46c2da85a3865/cocoapods:
+  https://downloads.a-mo.net/b2aa5d1bb6176d67f274e2fb200088eb367d1b9098ed7587/cocoapods:
     - AppMonet_Mopub-universal
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - mopub-ios-sdk
 
 SPEC CHECKSUMS:
-  AppMonet_Mopub-universal: 0416919065ce3ec10b025c7a680c17d1d4b7a827
-  mopub-ios-sdk: 292b8e9a55a2e72a34afc04ec01e85486af46240
+  AppMonet_Mopub-universal: a1105beb298f9cc567f3075fe6ed704c3f17e91b
+  mopub-ios-sdk: bb61d5741ba16c6a78e5a54e37bc60ef8c9a80a8
 
-PODFILE CHECKSUM: 72e7f5dd45ae0a9f8f9eaa41f6a29e99b5e0e45a
+PODFILE CHECKSUM: c5f5fa70473b1a407c542630012a027ee8a999e0
 
-COCOAPODS: 1.9.0.beta.2
+COCOAPODS: 1.8.4

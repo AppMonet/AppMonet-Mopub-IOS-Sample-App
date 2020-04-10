@@ -27,6 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             AppMonetConfigurations?.applicationId = "3zeuyua"
         }
         AppMonet.initialize(appMonetConfiguration)
+
+        //Use this only during testing in order to get test ads.
+        AppMonet.testMode()
         return true
     }
 }
